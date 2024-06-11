@@ -33,6 +33,9 @@ public class Main {
         if (array.length >= 1000) {
             insertSort(array);
             System.out.println("Insertion Sort was used.");
+        } else if (array.length >= 2000) {
+            selectionSort(array);
+            System.out.println("Selection Sort was used.");
         } else {
             bubbleSort(array);
             System.out.println("Bubble Sort was used.");
