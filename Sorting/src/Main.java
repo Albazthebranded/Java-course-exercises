@@ -3,6 +3,7 @@ import java.util.Random;
 
 import static Sorters.BubbleSort.bubbleSort;
 import static Sorters.InsertSort.insertSort;
+import static Sorters.SelectionSort.selectSort;
 
 public class Main {
     public static void main (String[] args) {
